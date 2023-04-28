@@ -89,7 +89,7 @@ body {
 .habilidades__tecnologia:hover {
     opacity: 1;
     transition: all .5s ease-in-out;
-    transform: translateY(-12px);
+    transform: translateY(-15px);
 }
 
 .habilidades__imagem {
