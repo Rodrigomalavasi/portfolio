@@ -32,6 +32,11 @@ body {
 }
 
 /*Cabecalho*/
+header {
+    position: sticky;
+    top: 0;
+}
+
 .cabecalho {
     background-color: var(--azul-escuro);
 }
