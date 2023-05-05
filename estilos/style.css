@@ -88,6 +88,10 @@ body {
 .habilidades__tecnologia:hover {
     transition: all .5s ease-in-out;
     transform: translateY(-15px);
+} 
+
+.habilidades__tecnologia:not( :hover ){ 
+    transition: all .3s linear;
 }
 
 .habilidades__imagem {
@@ -141,6 +145,10 @@ body {
     transition: all .3s ease-in-out;
 }
 
+.projeto__link:not( :hover ){ 
+    transition: all .3s linear;
+}
+
 .projeto__descricao {
     padding-left: 1rem;
 }
@@ -181,6 +189,10 @@ body {
 .contato__link:hover {
     background-color: var(--azul-hover);
     transition: all .3s ease-in-out;
+}
+
+.contato__link:not( :hover ){ 
+    transition: all .3s linear;
 }
 
 /*rodapé*/
