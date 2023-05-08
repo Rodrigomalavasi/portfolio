@@ -87,18 +87,8 @@ header {
     display: flex;
     flex-direction: column;
     margin: 2.5rem 5rem;
-    opacity: 0.8;
     padding: 1rem;
     width: 33.3%;
-}
-
-.habilidades__tecnologia:hover {
-    opacity: 1;
-    transition: all .3s ease-in-out;
-} 
-
-.habilidades__tecnologia:not( :hover ){ 
-    transition: all .3s linear;
 }
 
 .habilidades__imagem {
@@ -255,11 +245,6 @@ header {
         margin-left: 0; 
         width: 50%;
     }
-    
-    /*habilidades*/
-    .habilidades__tecnologia {
-        opacity: 1; 
-    }
 
     /*contato*/
     .contato__link {
@@ -281,7 +266,6 @@ header {
     }
 
     .habilidades__tecnologia {
-        opacity: 1; 
         width: 100%;
     }
 
@@ -310,10 +294,6 @@ header {
     /*habilidades*/
     .habilidade {
         margin: 2rem 5rem;
-    }
-    
-    .habilidades__tecnologia {
-        opacity: 1; 
     }
 
     #habilidade__html {
@@ -355,10 +335,6 @@ header {
     /*habilidades*/
     .habilidade {
         margin: 2rem 2.5rem;
-    }
-    
-    .habilidade__tecnolgia {
-        opacity: 1;
     }
 
     /*projetos*/
