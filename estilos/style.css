@@ -94,7 +94,7 @@ header {
 
 .habilidades__tecnologia:hover {
     opacity: 1;
-    transition: all .5s ease-in-out;
+    transition: all .3s ease-in-out;
 } 
 
 .habilidades__tecnologia:not( :hover ){ 
